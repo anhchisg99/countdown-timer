@@ -1,0 +1,26 @@
+.middle{
+    margin:auto;
+    max-width: 1000px;
+    text-transform: uppercase;
+    margin-top:4rem;
+    &-container{
+        text-align: center;
+        // margin:15px 0;
+    }
+    &-logo{
+        font-size: 2rem;
+
+    }
+    &-heading{
+        text-transform: uppercase;
+        margin:15px 0;
+    }
+    &-time{
+        margin:15px 0;
+    }
+    &-desc{
+        
+        margin-bottom:20px;
+    }
+
+}

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/bg-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  max-width: 1540px;
+  height: 100%;
+  margin: auto;
+  padding: 20px 10px;
+}
+
+.middle {
+  margin: auto;
+  max-width: 1000px;
+}
+.middle-container {
+  text-align: center;
+}
+
+.header-heading {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.header-desc {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.middle {
+  margin: auto;
+  max-width: 1000px;
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+.middle-container {
+  text-align: center;
+}
+.middle-logo {
+  font-size: 2rem;
+}
+.middle-heading {
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.middle-time {
+  margin: 15px 0;
+}
+.middle-desc {
+  margin-bottom: 20px;
+}
+
+.timer {
+  margin-top: 50px;
+}
+.timer-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+}
+.timer-card {
+  width: 110px;
+  border-radius: 2rem;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.timer-heading {
+  border-bottom: 2px solid #ccc;
+  padding: 50px 0;
+}
+.timer-desc {
+  padding: 10px 0;
+  opacity: 0.6;
+}
+
+#time-up {
+  margin-top: 50px;
+  display: none;
+}
+#time-up-container {
+  width: 300px;
+  background: transparent;
+  border: 1px solid #ccc;
+  margin: auto;
+  color: white;
+  border-radius: 2rem;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=app.css.map */
